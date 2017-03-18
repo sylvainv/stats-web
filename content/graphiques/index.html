@@ -1,0 +1,158 @@
++++
+chapter = true
+icon = "<b>2. </b>"
+date = "2017-03-12T02:07:10+08:00"
+title = "Chômage"
+weight = 0
+next = "/graphiques"
++++
+
+<script>
+
+jQuery( document ).ready(function() {
+  var chart = AmCharts.makeChart("chartdiv", {
+      "type": "serial",
+      "theme": "light",
+      "dataDateFormat": "YYYY",
+      "legend": {
+        "useGraphSettings": true
+      },
+      "balloon": {
+          "borderThickness": 1,
+          "shadowAlpha": 0
+      },
+      "valueAxes": [{
+        "id":"unemployment ratio",
+        "axisColor": "#FF6600",
+        "axisThickness": 2,
+        "axisAlpha": 1,
+        "position": "left",
+        "minimum": 0,
+        "maximum": 25,
+      }],
+      "graphs": [
+      {
+        "valueAxis": "unemployment ratio",
+        "lineColor": "black",
+        "bullet": "round",
+        "bulletBorderThickness": 1,
+        "hideBulletsCount": 30,
+        "title": "Germany",
+        "valueField": "DEU",
+        "fillAlphas": 0
+      },
+      {
+        "valueAxis": "unemployment ratio",
+        "lineColor": "red",
+        "bullet": "round",
+        "bulletBorderThickness": 1,
+        "hideBulletsCount": 30,
+        "title": "France",
+        "valueField": "FRA",
+    		"fillAlphas": 0
+      },
+      {
+        "valueAxis": "unemployment ratio",
+        "lineColor": "green",
+        "bullet": "round",
+        "bulletBorderThickness": 1,
+        "hideBulletsCount": 30,
+        "title": "Grande Bretagne",
+        "valueField": "GBR",
+        "fillAlphas": 0
+      },
+      {
+        "valueAxis": "unemployment ratio",
+        "lineColor": "blue",
+        "bullet": "round",
+        "bulletBorderThickness": 1,
+        "hideBulletsCount": 30,
+        "title": "Europe",
+        "valueField": "EU28",
+		    "fillAlphas": 0
+      }],
+      "chartCursor": {
+          "pan": true,
+          "valueLineEnabled": true,
+          "valueLineBalloonEnabled": true,
+          "cursorAlpha":1,
+          "cursorColor":"#258cbb",
+          "limitToGraph":"g1",
+          "valueLineAlpha":0.2,
+          "valueZoomable":false
+      },
+      "categoryField": "time",
+      "categoryAxis": {
+          "startOnAxis": true,
+          "parseDates": true,
+          "dashLength": 1,
+          "minorGridEnabled": true,
+          "guides": [
+            {
+                "date": "1981",
+                "toDate": "1995",
+                "fillColor": "#CCBDDB",
+                "lineColor": "#CCBDDB",
+                "lineAlpha": 1,
+                "fillAlpha": 0.2,
+                "boldLabel": true,
+                "inside": true,
+                "dashLength": 2,
+                "label": "François Mitterand"
+            },
+            {
+                "date": "1995",
+                "toDate": "2007",
+                "fillColor": "#CCBBBB",
+                "lineColor": "#CCBBBB",
+                "lineAlpha": 1,
+                "fillAlpha": 0.2,
+                "boldLabel": true,
+                "inside": true,
+                "dashLength": 2,
+                "label": "Jacques Chirac"
+            },
+            {
+                "date": "2007",
+                "toDate": "2012",
+                "fillColor": "#CCBB00",
+                "lineColor": "#CCBB00",
+                "lineAlpha": 1,
+                "fillAlpha": 0.2,
+                "boldLabel": true,
+                "inside": true,
+                "dashLength": 2,
+                "label": "Nicolas Sarkozy"
+            },
+            {
+                "date": "2012",
+                "toDate": "2017",
+                "fillColor": "#DDBBDD",
+                "lineColor": "#DDBBDD",
+                "lineAlpha": 1,
+                "fillAlpha": 0.2,
+                "boldLabel": true,
+                "inside": true,
+                "dashLength": 2,
+                "label": "François Hollande"
+            },
+            {
+              "date": "2008",
+              "lineColor": "#CC0000",
+              "lineAlpha": 1,
+              "boldLabel": true,
+              "inside": true,
+              "dashLength": 2,
+              "label": "Crise 2008"
+          }]
+      },
+      "dataLoader": {
+        "url":  "/data/unemployment/overview.json",
+        "format": "json"
+      }
+    });
+});
+</script>
+
+<!-- HTML -->
+<div id="chartdiv" style="width: 1000px; height: 600px;"></div>
