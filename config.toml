@@ -1,5 +1,5 @@
 languageCode = "fr-FR"
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://sylvainv.github.io/stats-web/"
 title = "Statistiques"
 
 theme = "hugo-theme-learn"
