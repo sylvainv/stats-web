@@ -10,7 +10,7 @@ next = "/introduction"
 
 ### Bienvenue sur {{ .Site.Title }}
 
-Le but de ce site est de présenter des statistiques et des données sous formes de graphes simples et lisibles. Les sujets des données sont sélectionnés en fonction de leur intérets et de la place qu'il porte dans le débat politique français.
+Le but de ce site est de présenter des statistiques et des données sous formes de graphes simples et lisibles venant de source diverses. Les sujets des données sont sélectionnés en fonction de leur intérets, de la place qu'il porte dans le débat politique français, ou de leur non place dans les médias.
 
 Les données sont présentés sous plusieurs aspects, mais nottament de graphiques qui s'efforceront de respecter les principes suivant:
 
