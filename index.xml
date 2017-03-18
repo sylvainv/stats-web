@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistiques</title>
-    <link>http://replace-this-with-your-hugo-site.com/index.xml</link>
+    <link>https://sylvainv.github.io/stats-web/index.xml</link>
     <description>Recent content on Statistiques</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Sun, 12 Mar 2017 02:07:10 +0800</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sylvainv.github.io/stats-web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Chômage</title>
-      <link>http://replace-this-with-your-hugo-site.com/graphiques/</link>
+      <link>https://sylvainv.github.io/stats-web/graphiques/</link>
       <pubDate>Sun, 12 Mar 2017 02:07:10 +0800</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/graphiques/</guid>
+      <guid>https://sylvainv.github.io/stats-web/graphiques/</guid>
       <description>&lt;script&gt;
 
 jQuery( document ).ready(function() {
@@ -169,10 +169,10 @@ jQuery( document ).ready(function() {
     
     <item>
       <title>Introduction</title>
-      <link>http://replace-this-with-your-hugo-site.com/introduction/</link>
+      <link>https://sylvainv.github.io/stats-web/introduction/</link>
       <pubDate>Sun, 12 Mar 2017 02:06:10 +0800</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/introduction/</guid>
+      <guid>https://sylvainv.github.io/stats-web/introduction/</guid>
       <description>
 
 &lt;h3 id=&#34;bienvenue-sur-site-title&#34;&gt;Bienvenue sur {{ .Site.Title }}&lt;/h3&gt;
