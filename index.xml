@@ -155,7 +155,7 @@ jQuery( document ).ready(function() {
           }]
       },
       &#34;dataLoader&#34;: {
-        &#34;url&#34;:  &#34;/data/unemployment/overview.json&#34;,
+        &#34;url&#34;:  &#34;https://sylvainv.github.io/stats-web/data/unemployment/overview.json&#34;,
         &#34;format&#34;: &#34;json&#34;
       }
     });
@@ -164,35 +164,6 @@ jQuery( document ).ready(function() {
 
 &lt;!-- HTML --&gt;
 &lt;div id=&#34;chartdiv&#34; style=&#34;width: 1000px; height: 600px;&#34;&gt;&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>https://sylvainv.github.io/stats-web/introduction/</link>
-      <pubDate>Sun, 12 Mar 2017 02:06:10 +0800</pubDate>
-      
-      <guid>https://sylvainv.github.io/stats-web/introduction/</guid>
-      <description>
-
-&lt;h3 id=&#34;bienvenue-sur-site-title&#34;&gt;Bienvenue sur {{ .Site.Title }}&lt;/h3&gt;
-
-&lt;p&gt;Le but de ce site est de présenter des statistiques et des données sous formes de graphes simples et lisibles venant de source diverses. Les sujets des données sont sélectionnés en fonction de leur intérets, de la place qu&amp;rsquo;il porte dans le débat politique français, ou de leur non place dans les médias.&lt;/p&gt;
-
-&lt;p&gt;Les données sont présentés sous plusieurs aspects, mais nottament de graphiques qui s&amp;rsquo;efforceront de respecter les principes suivant:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tous les graphiques montrent des données étalées sur plusieurs années. Les données sont plus intéréssantes si l&amp;rsquo;on peut comprendre leurs évolutions.&lt;/li&gt;
-&lt;li&gt;Nous présentons les données sous un angle neutre en utilisant des graphiques qui ne rendent pas une vue biaisée des données et en utilisant des échelles raisonnables.&lt;/li&gt;
-&lt;li&gt;Les données sont parfois présentés par rapport aux données d&amp;rsquo;autres pays tel que l&amp;rsquo;Allemagne ou le Royaume-Uni qui entre souvent dans le débat politque français.&lt;/li&gt;
-&lt;li&gt;Les données sont présentées avec un contexte historique (présidence, évenements économiques majeurs, etc).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Si tu ne sais pas ou tu vas, regardes d&amp;rsquo;ou tu viens.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Proverbe africain&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     

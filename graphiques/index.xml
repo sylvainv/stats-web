@@ -155,7 +155,7 @@ jQuery( document ).ready(function() {
           }]
       },
       &#34;dataLoader&#34;: {
-        &#34;url&#34;:  &#34;/data/unemployment/overview.json&#34;,
+        &#34;url&#34;:  &#34;https://sylvainv.github.io/stats-web/data/unemployment/overview.json&#34;,
         &#34;format&#34;: &#34;json&#34;
       }
     });

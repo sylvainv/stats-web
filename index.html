@@ -10,25 +10,13 @@
 
 
     <title>Statistiques</title>
-    <script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-
-<style media="screen" type="text/css">
-  #body-inner {
-    max-width: 100% !important;
-  }
-
-  #chapter p, #chapter h2 {
-    text-align: left !important;
-  }
-</style>
-
-    <link href="https://sylvainv.github.io/stats-web//css/nucleus.css" rel="stylesheet">
-    <link href="https://sylvainv.github.io/stats-web//css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://sylvainv.github.io/stats-web//css/hybrid.css" rel="stylesheet">
-    <link href="https://sylvainv.github.io/stats-web//css/featherlight.min.css" rel="stylesheet">
-    <link href="https://sylvainv.github.io/stats-web//css/perfect-scrollbar.min.css" rel="stylesheet">
-    <link href="https://sylvainv.github.io/stats-web//css/theme.css" rel="stylesheet">
-    <link href="https://sylvainv.github.io/stats-web//css/hugo-theme.css" rel="stylesheet">
+    <link href="https://sylvainv.github.io/stats-web/css/nucleus.css" rel="stylesheet">
+    <link href="https://sylvainv.github.io/stats-web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://sylvainv.github.io/stats-web/css/hybrid.css" rel="stylesheet">
+    <link href="https://sylvainv.github.io/stats-web/css/featherlight.min.css" rel="stylesheet">
+    <link href="https://sylvainv.github.io/stats-web/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="https://sylvainv.github.io/stats-web/css/theme.css" rel="stylesheet">
+    <link href="https://sylvainv.github.io/stats-web/css/hugo-theme.css" rel="stylesheet">
     <style type="text/css">
     :root #header + #content > #left > #rlblock_left {
       display:none !important;
@@ -42,7 +30,20 @@
     {
         list-style-type: none;
     }
+  </style>
+  <script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+
+<style media="screen" type="text/css">
+  #body-inner {
+    max-width: 100%;
+  }
+
+  #chapter p, #chapter h2 {
+    text-align: left;
+  }
 </style>
+
+
   </head>
   <body>
     <body class="" data-url="/">
@@ -51,16 +52,29 @@
           <div id="overlay"></div>
 
           <div class="padding highlightable">
-            <h1>Customize your own home page</h1>
+
+            <h1>Bienvenue sur Statistiques</h1>
+
             <p>
-              The site is working, change the URL in your browser to get to any custom page. But, don't forget to <a href="https://gohugo.io/themes/customizing/">overwrite this index.html</a> with your own. You typically have 3 choices :
+              Le but de ce site est de présenter des statistiques et des données sous formes de graphes simples et lisibles venant de source diverses. Les sujets des données sont sélectionnés en fonction de leur intérets, de la place qu'il porte dans le débat politique français, ou de leur non place dans les médias.
+              Les données sont présentés sous plusieurs aspects, mais nottament de graphiques qui s'efforceront de respecter les principes suivant:
+
+              Tous les graphiques montrent des données étalées sur plusieurs années. Les données sont plus intéréssantes si l'on peut comprendre leurs évolutions.
+              <ul>
+                <li>Nous présentons les données sous un angle neutre en utilisant des graphiques qui ne rendent pas une vue biaisée des données et en utilisant des échelles raisonnables.</li>
+                <li>Les données sont parfois présentés par rapport aux données d'autres pays tel que l'Allemagne ou le Royaume-Uni qui entre souvent dans le débat politque français.</li>
+                <li>Les données sont présentées avec un contexte historique (présidence, évenements économiques majeurs, etc).</li>
+              </ul>
+            <p>
+            <quote>
+              Si tu ne sais pas ou tu vas, regardes d'ou tu viens.
+
+              </i>Proverbe africain</i>
+            </quote>
+
+            <p>
+              <a href="https://sylvainv.github.io/stats-web/graphiques">Entrer</a>
             </p>
-            <ul>
-              <li><b>1. </b> Create an overview page for your project</li>
-              <li><b>2. </b> Create an empty html page with this code in the head tag to redirect to one of your documentation page : <code>&lt;meta http-equiv="refresh" content="0; url=http://example.com/"/&gt;</code> </li>
-              <li><b>3. </b> Configure your server to automatically redirect home page to one your documentation page</li>
-            </ul>
-            <p><i class="fa fa-heart fa-4x"></i></p>
           </div>
         </section>
   </body>
