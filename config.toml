@@ -1,5 +1,5 @@
 languageCode = "fr-FR"
-baseurl = "https://sylvainv.github.io/stats-web/"
+baseURL = "https://sylvainv.github.io/stats-web"
 title = "Statistiques"
 
 theme = "hugo-theme-learn"
